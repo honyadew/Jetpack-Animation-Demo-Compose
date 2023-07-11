@@ -6,10 +6,12 @@ import androidx.compose.foundation.layout.fillMaxSize
 import androidx.compose.runtime.Composable
 import androidx.compose.ui.Modifier
 import com.honyadew.animationtestjetpackcompose.animations.e.AnimateAsFloatAndDp
+import com.honyadew.animationtestjetpackcompose.animations.e.AnimationTargetBasedAnimation
 
 @Composable
 fun EAnimation(){
     Column(modifier = Modifier.fillMaxSize()){
         AnimateAsFloatAndDp()
+        AnimationTargetBasedAnimation()
     }
 }
